@@ -7,3 +7,6 @@ update.sh依赖unzip软件包，如果没有运行：su -c root 'apt-get install unzip' 安装
 2.上传到服务器的监工路径下的tmp目录
 3.运行update.sh
 脚本会自动解压升级包。并将旧版本备份到crysadm.old
+
+
+2016-07-16版
