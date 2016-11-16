@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+<iframe src="http://bbs.rhh520.cn/forum.php?mod=forumdisplay&fid=36" onload="this.height=Info1.document.body.scrollHeight" width="100%" height="800"scrolling="auto" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block navibar %}
+    <div class="col-lg-10">
+        <h2>用户交流</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li class="active">
+                <strong>Talk</strong>
+            </li>
+        </ol>
+    </div>
+{% endblock %}
+{% set active_page = "talk" %}
